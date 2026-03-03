@@ -1,0 +1,35 @@
+[Tue Mar  3 12:24:35 2026] Clearing SCHEMA_CACHE.
+[Tue Mar  3 12:24:35 2026] Fetching tools from server: enterprise-gateway
+[Tue Mar  3 12:25:05 2026] Intent: sql, Tool: None, Source: MySQL, Q: show all employees
+[Tue Mar  3 12:25:05 2026] Fetching fresh schema via: mysql_get_schema
+[Tue Mar  3 12:25:07 2026] FAST PATH SQL: SELECT * FROM employees LIMIT 100
+[Tue Mar  3 12:25:07 2026] Fast path query successful: SELECT * FROM employees LIMIT 100
+[Tue Mar  3 12:25:07 2026] Calling Local Ollama: phi3:latest
+[Tue Mar  3 12:27:18 2026] Ollama call failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+[Tue Mar  3 12:27:19 2026] AI Summary/Visual analysis failed: Intelligence Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+[Tue Mar  3 12:27:59 2026] Calling Local Ollama: phi3:latest
+[Tue Mar  3 12:28:13 2026] Clearing SCHEMA_CACHE.
+[Tue Mar  3 12:28:13 2026] Fetching tools from server: enterprise-gateway
+[Tue Mar  3 12:29:05 2026] Ollama call failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=20)
+[Tue Mar  3 12:29:44 2026] Intent: sql, Tool: None, Source: MySQL, Q: show all employees
+[Tue Mar  3 12:29:44 2026] Fetching fresh schema via: mysql_get_schema
+[Tue Mar  3 12:29:54 2026] FAST PATH SQL: SELECT * FROM employees LIMIT 100
+[Tue Mar  3 12:29:55 2026] Fast path query successful: SELECT * FROM employees LIMIT 100
+[Tue Mar  3 12:29:55 2026] Calling Local Ollama: phi3:latest
+[Tue Mar  3 12:31:41 2026] AI Strategy Response: SUMMARY: The employee data reveals a diverse range of roles from CEO to Accountant within the company, spanning multiple departments. Notably, Aman, the CEO, has the highest basic salary of $200,000, while the Accountant, Nisha, earns the least at $90,000, indicating a clear salary stratification. Additionally, all employees are active, suggesting robust staff retention, and the hiring dates range from 2022 to 2024.
+
+CHART: YES | Line | role_id | basic_salary | 'Salary Stratification by Role within the Company'
+[Tue Mar  3 12:31:46 2026] Calling Local Ollama: phi3:latest
+[Tue Mar  3 12:32:15 2026] Ollama call failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=20)
+[Tue Mar  3 13:37:26 2026] Clearing SCHEMA_CACHE.
+[Tue Mar  3 13:37:26 2026] Fetching tools from server: enterprise-gateway
+[Tue Mar  3 13:37:43 2026] Intent: sql, Tool: None, Source: MySQL, Q: show all employees
+[Tue Mar  3 13:37:43 2026] Fetching fresh schema via: mysql_get_schema
+[Tue Mar  3 13:37:45 2026] FAST PATH SQL: SELECT * FROM employees LIMIT 100
+[Tue Mar  3 13:37:46 2026] Fast path query successful: SELECT * FROM employees LIMIT 100
+[Tue Mar  3 13:37:46 2026] Calling Local Ollama: phi3:latest
+[Tue Mar  3 13:39:44 2026] AI Strategy Response: SUMMARY: The employee dataset showcases a diverse team structure with various roles and departments, indicating a multi-tiered organization. Notably, the dataset includes a manager at a higher level and suggests a hierarchy where employees report to the manager. A total of four employees are active, with different roles and salaries across the organization.
+
+CHART: YES | Line | role_id | basic_salary | [Trends in Salary by Role]
+[Tue Mar  3 13:39:47 2026] Calling Local Ollama: phi3:latest
+[Tue Mar  3 13:40:07 2026] Ollama call failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=20)

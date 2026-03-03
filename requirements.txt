@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+plotly
+pymysql
+psycopg2-binary
+msal
+python-dotenv
+requests
+mcp
+nest-asyncio
+pypdf
+python-docx
+openpyxl
