@@ -6008,3 +6008,5 @@ CHART: YES | Bar | project_name | budget | Project Budget Comparison
 [Wed May 27 09:52:35 2026] Attempt 1 Cleaned SQL: SELECT SUM(i.total) - SUM(p.amount) AS total_loss FROM public.invoices i LEFT JOIN public.payments p ON i.invoice_id = p.invoice_id WHERE i.invoice_date >= date_trunc('year', current_date - interval '1 year') AND i.invoice_date < date_trunc('year', current_date) HAVING SUM(i.total) - SUM(p.amount) < 0
 [Wed May 27 09:52:36 2026] Query successful.
 [Wed May 27 09:52:36 2026] Grounded answer generated. Visual: {'show': False}
+[Wed May 27 10:29:53 2026] Clearing SCHEMA_CACHE.
+[Wed May 27 10:29:53 2026] Fetching tools from server: enterprise-gateway
