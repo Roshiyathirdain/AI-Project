@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+plotly
+pymysql
+psycopg2-binary
+msal
+python-dotenv
+requests
+truststore
+mcp
+nest-asyncio
+pypdf
+python-docx
+openpyxl
